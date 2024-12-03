@@ -22,7 +22,10 @@
             </div>
             <div class="results" style="max-width: fit-content; margin-left: auto; margin-right: auto">
                 </br>
-                <asp:Label ID="lblLeetCode" runat="server" Text=""></asp:Label>
+                <asp:Label ID="lblLeetCode" runat="server" Text="" style="font-weight: bold; font-size: 22px"></asp:Label>
+                </br>
+                </br>
+                <asp:Label ID="lblSolution" runat="server" Text="" style="font-size: 18px"></asp:Label>
             </div>
         </div>
     </form>

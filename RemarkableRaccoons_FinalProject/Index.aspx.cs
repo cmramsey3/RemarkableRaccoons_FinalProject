@@ -17,21 +17,25 @@ namespace RemarkableRaccoons_FinalProject
         protected void btnIan_Click(object sender, EventArgs e)
         {
             lblLeetCode.Text = "Leet Code Problem #1255";
+            lblSolution.Text = "Test test test";
         }
 
         protected void btnColton_Click(object sender, EventArgs e)
         {
             lblLeetCode.Text = "Leet Code Problem #";
+            lblSolution.Text = "";
         }
 
         protected void btnSai_Click(object sender, EventArgs e)
         {
             lblLeetCode.Text = "Leet Code Problem #";
+            lblSolution.Text = "";
         }
 
         protected void btnLucas_Click(object sender, EventArgs e)
         {
             lblLeetCode.Text = "Leet Code Problem #";
+            lblSolution.Text = "";
         }
     }
 }
