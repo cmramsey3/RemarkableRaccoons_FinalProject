@@ -15,10 +15,14 @@
                 <h2 style="text-align: center">Team Members: Colton Ramsey, Lucas Iceman, Ian McDaniel, Saivamsi Amireddy</h2>
             </div>
             <div class="buttons" style="max-width: fit-content; margin-left: auto; margin-right: auto">
-                <asp:Button ID="btnIan" runat="server" Text="Solution#" class="btn btn-success"/>
-                <asp:Button ID="btnColton" runat="server" Text="Solution#" class="btn btn-success"/>
-                <asp:Button ID="btnSai" runat="server" Text="Solution#" class="btn btn-success"/>
-                <asp:Button ID="btnLucas" runat="server" Text="Solution#" class="btn btn-success"/>
+                <asp:Button ID="btnIan" runat="server" Text="Solution#" class="btn btn-success" OnClick="btnIan_Click"/>
+                <asp:Button ID="btnColton" runat="server" Text="Solution#" class="btn btn-info" OnClick="btnColton_Click"/>
+                <asp:Button ID="btnSai" runat="server" Text="Solution#" class="btn btn-warning" OnClick="btnSai_Click"/>
+                <asp:Button ID="btnLucas" runat="server" Text="Solution#" class="btn btn-danger" OnClick="btnLucas_Click"/>
+            </div>
+            <div class="results" style="max-width: fit-content; margin-left: auto; margin-right: auto">
+                </br>
+                <asp:Label ID="lblLeetCode" runat="server" Text=""></asp:Label>
             </div>
         </div>
     </form>
