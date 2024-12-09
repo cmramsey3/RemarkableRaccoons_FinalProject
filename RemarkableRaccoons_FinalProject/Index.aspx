@@ -25,7 +25,15 @@
                 <asp:Label ID="lblLeetCode" runat="server" Text="" style="font-weight: bold; font-size: 22px"></asp:Label>
                 </br>
                 </br>
-                <asp:Label ID="lblSolution" runat="server" Text="" style="font-size: 18px"></asp:Label>
+                <asp:Label ID="lblDescription" runat="server" Text="" style="font-size: 16px"></asp:Label>
+                </br>
+                </br>
+                <asp:Label ID="lblInputValues" runat="server" Text="" style="font-size: 18px"></asp:Label>
+                </br>
+                </br>
+                <asp:Label ID="lblSolution1" runat="server" Text="" style="font-size: 18px"></asp:Label>
+                <asp:Label ID="lblSolution2" runat="server" Text="" style="font-size: 18px"></asp:Label>
+
             </div>
         </div>
     </form>
