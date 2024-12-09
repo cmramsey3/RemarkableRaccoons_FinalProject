@@ -1,4 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="RemarkableRaccoons_FinalProject.Index" %>
+﻿<!--
+Program Documentation
+-->
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="RemarkableRaccoons_FinalProject.Index" %>
 
 <!DOCTYPE html>
 
@@ -15,10 +19,10 @@
                 <h2 style="text-align: center">Team Members: Colton Ramsey, Lucas Iceman, Ian McDaniel, Saivamsi Amireddy</h2>
             </div>
             <div class="buttons" style="max-width: fit-content; margin-left: auto; margin-right: auto">
-                <asp:Button ID="btnIan" runat="server" Text="Solution#" class="btn btn-success" OnClick="btnIan_Click"/>
-                <asp:Button ID="btnColton" runat="server" Text="Solution#" class="btn btn-info" OnClick="btnColton_Click"/>
+                <asp:Button ID="btnIan" runat="server" Text="Solution #1255" class="btn btn-success" OnClick="btnIan_Click"/>
+                <asp:Button ID="btnColton" runat="server" Text="Solution #123" class="btn btn-info" OnClick="btnColton_Click"/>
                 <asp:Button ID="btnSai" runat="server" Text="Solution#" class="btn btn-warning" OnClick="btnSai_Click"/>
-                <asp:Button ID="btnLucas" runat="server" Text="Solution#" class="btn btn-danger" OnClick="btnLucas_Click"/>
+                <asp:Button ID="btnLucas" runat="server" Text="Solution #420" class="btn btn-danger" OnClick="btnLucas_Click"/>
             </div>
             <div class="results" style="max-width: fit-content; margin-left: auto; margin-right: auto">
                 </br>
