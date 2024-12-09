@@ -17,7 +17,7 @@ namespace RemarkableRaccoons_FinalProject
         protected void btnIan_Click(object sender, EventArgs e)
         {
             lblLeetCode.Text = "Leet Code Problem #1255";
-            lblDescription.Text = "";
+            lblDescription.Text = "This is problem number 1255";
             lblSolution1.Text = "Test test test";
         }
 
