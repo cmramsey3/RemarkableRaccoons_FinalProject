@@ -25,16 +25,16 @@ Program Documentation
                 <asp:Button ID="btnLucas" runat="server" Text="Solution #420" class="btn btn-danger" OnClick="btnLucas_Click"/>
             </div>
             <div class="results" style="max-width: fit-content; margin-left: auto; margin-right: auto">
-                </br>
+                <br />
                 <asp:Label ID="lblLeetCode" runat="server" Text="" style="font-weight: bold; font-size: 22px"></asp:Label>
-                </br>
-                </br>
+                <br />
+                <br />
                 <asp:Label ID="lblDescription" runat="server" Text="" style="font-size: 16px"></asp:Label>
-                </br>
-                </br>
+                <br />
+                <br />
                 <asp:Label ID="lblInputValues" runat="server" Text="" style="font-size: 18px"></asp:Label>
-                </br>
-                </br>
+                <br />
+                <br />
                 <asp:Label ID="lblSolution1" runat="server" Text="" style="font-size: 18px"></asp:Label>
                 <asp:Label ID="lblSolution2" runat="server" Text="" style="font-size: 18px"></asp:Label>
 

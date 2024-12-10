@@ -28,7 +28,6 @@ namespace RemarkableRaccoons_FinalProject
 
             // Check for three consecutive repeating characters
             int replace = 0;
-            int count = 2; // Start from the third character
             for (int i = 2; i < n; i++)
             {
                 if (password[i] == password[i - 1] && password[i - 1] == password[i - 2])
