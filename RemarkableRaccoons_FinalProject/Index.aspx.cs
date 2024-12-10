@@ -23,6 +23,7 @@ namespace RemarkableRaccoons_FinalProject
             lblLeetCode.Text = "Leet Code Problem #1255";
             lblDescription.Text = "Given a list of words, list of  single letters (might be repeating) and score of every character. Return the maximum score of any valid set of words formed by using the given letters (words[i] cannot be used two or more times). It is not necessary to use all characters in letters and each letter can only be used once. Score of letters 'a', 'b', 'c', ... ,'z' is given by score[0], score[1], ... , score[25] respectively.";
             IanMcDaniel solver = new IanMcDaniel();
+            lblInputValues.Text = "Test Case 1: Words= [dog,cat,dad,good] Letter Array= [a,a,c,d,d,d,g,o,o] Letter Scores= [ 1, 0, 9, 5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]       Test Case 2: Words = [xxxz, ax, bx, cx] , Letter Array [z, a, b, c, x, x, x] Letter Scores = [4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 10]";
             string[] words1 = { "dog", "cat", "dad", "good" };
             char[] letters1 = { 'a', 'a', 'c', 'd', 'd', 'd', 'g', 'o', 'o' };
             int[] score1 = { 1, 0, 9, 5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };

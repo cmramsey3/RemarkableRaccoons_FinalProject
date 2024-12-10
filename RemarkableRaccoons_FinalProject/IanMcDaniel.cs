@@ -1,5 +1,13 @@
 ﻿/*
- * Program Documentation
+* Name: Ian McDaniel
+* email:  mcdaniip@mail.uc.edu
+* Assignment Number: Final Exam
+* Due Date: 12 December 2024
+* Course #/Section: IS3050 002 
+* Semester/Year: FS2024
+* Brief Description of the assignment: Using mastery of aspx to design a website with press of button runs this code in this file and displays an result
+* Citations: https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/, https://chatgpt.com/
+* Anything else that's relevant:
  */
 
 using System;
