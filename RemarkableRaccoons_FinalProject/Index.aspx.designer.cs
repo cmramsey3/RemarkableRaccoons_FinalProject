@@ -69,6 +69,15 @@ namespace RemarkableRaccoons_FinalProject
         protected global::System.Web.UI.WebControls.Button btnLucas;
 
         /// <summary>
+        /// btnSaivamsi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSaivamsi;
+
+        /// <summary>
         /// lblLeetCode control.
         /// </summary>
         /// <remarks>

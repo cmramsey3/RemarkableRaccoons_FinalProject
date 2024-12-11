@@ -1,6 +1,6 @@
 ﻿/*
-* Name: Colton Ramsey, Lucas Iceman, Ian McDaniel
-* email: ramseyc6@mail.uc.edu, icemanlc@mail.cu.edu, mcdaniip@mail.uc.edu
+* Name: Colton Ramsey, Lucas Iceman, Ian McDaniel, Saivamsi Amireddy
+* email: ramseyc6@mail.uc.edu, icemanlc@mail.cu.edu, mcdaniip@mail.uc.edu, amiredsr@mail.uc.edu
 * Assignment Number: Final Exam
 * Due Date: 12/12/2024
 * Course #/Section: IS3050-002 
@@ -91,6 +91,24 @@ namespace RemarkableRaccoons_FinalProject
             lblSolution1.Text = "";
             lblSolution2.Text = "";
             lblResults.Text = "";
+        }
+
+        protected void btnSaivamsi_Click(object sender, EventArgs e)
+        {
+            lblLeetCode.Text = "Leet Code Problem: Find Median of Two Sorted Arrays";
+            lblDescription.Text = "Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.";
+            SaivamsiAmireddy solver = new SaivamsiAmireddy();
+            int[] nums1 = { 1, 3 };
+            int[] nums2 = { 2 };
+            double result = solver.FindMedianSortedArrays(nums1, nums2);
+            lblSolution1.Text = $"Median is: {result}";
+            lblInputValues.Text = "Test Case: nums1 = [1, 3], nums2 = [2]";
+            
+            int[] nums1b = {1, 2};
+            int[] nums2b = {3, 4};
+            double result2 = solver.FindMedianSortedArrays(nums1b, nums2b);
+            lblSolution2.Text = $"Test Case 2: {result2}";
+
         }
     }
 }
