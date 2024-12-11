@@ -80,6 +80,7 @@
     <Compile Include="LucasIceman.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ColtonRamsey2.cs" />
+    <Compile Include="SaivamsiAmireddy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
