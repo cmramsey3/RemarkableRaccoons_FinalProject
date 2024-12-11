@@ -1,13 +1,13 @@
 ﻿<!--
-* Name: Colton Ramsey, Lucas Iceman, Ian McDaniel
-* email: ramseyc6@mail.uc.edu, icemanlc@mail.cu.edu, mcdaniip@mail.uc.edu
-* Assignment Number: Final Exam
-* Due Date: 12/12/2024
-* Course #/Section: IS3050-002 
-* Semester/Year: Fall 2024
-* Brief Description of the assignment: Use asp.net to run leet code solutions.
-* Citations: https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/, https://chatgpt.com/
-* Anything else that's relevant:
+Name: Colton Ramsey, Lucas Iceman, Ian McDaniel
+email: ramseyc6@mail.uc.edu, icemanlc@mail.cu.edu, mcdaniip@mail.uc.edu
+Assignment Number: Final Exam
+Due Date: 12/12/2024
+Course #/Section: IS3050-002 
+Semester/Year: Fall 2024
+Brief Description of the assignment: Use asp.net to run leet code solutions.
+Citations: https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/, https://chatgpt.com/
+Anything else that's relevant:
 -->
 
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="RemarkableRaccoons_FinalProject.Index" %>
