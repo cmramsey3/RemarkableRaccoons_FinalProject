@@ -19,6 +19,13 @@ namespace RemarkableRaccoons_FinalProject
 {
     public class IanMcDaniel
     {
+        /// <summary>
+        /// Calculates the maximum score of any valid subset of words formed by using given letters.
+        /// </summary>
+        /// <param name="words">Array of words to choose from.</param>
+        /// <param name="letters">Array of available letters (may contain duplicates).</param>
+        /// <param name="score">Array where score[i] represents the score of the letter 'a' + i.</param>
+        /// <returns>Maximum score of any valid subset of words.</returns>
         public int MaxScoreWords(string[] words, char[] letters, int[] score)
         {
             // Convert letters array into a frequency dictionary
@@ -31,6 +38,14 @@ namespace RemarkableRaccoons_FinalProject
             return Backtrack(words, letterCounts, score, 0);
         }
 
+        /// <summary>
+        /// Performs backtracking to explore all possible subsets of words and calculates the maximum score.
+        /// </summary>
+        /// <param name="words">Array of words to choose from.</param>
+        /// <param name="letterCounts">Frequency array of available letters.</param>
+        /// <param name="score">Array where score[i] represents the score of the letter 'a' + i.</param>
+        /// <param name="index">Current index in the words array being processed.</param>
+        /// <returns>Maximum score that can be achieved starting from the given index.</returns>
         private int Backtrack(string[] words, int[] letterCounts, int[] score, int index)
         {
             if (index == words.Length)
