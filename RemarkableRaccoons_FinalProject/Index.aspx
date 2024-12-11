@@ -1,6 +1,6 @@
 ﻿<!--
-Name: Colton Ramsey, Lucas Iceman, Ian McDaniel, Saivamsi Amireddy
-email: ramseyc6@mail.uc.edu, icemanlc@mail.cu.edu, mcdaniip@mail.uc.edu, amiredsr@mail.uc.edu
+Name: Colton Ramsey, Lucas Iceman, Ian McDaniel
+email: ramseyc6@mail.uc.edu, icemanlc@mail.cu.edu, mcdaniip@mail.uc.edu
 Assignment Number: Final Exam
 Due Date: 12/12/2024
 Course #/Section: IS3050-002 
@@ -32,8 +32,6 @@ Anything else that's relevant:
                 <asp:Button ID="btnColton1" runat="server" Text="Solution #123" class="btn btn-info" style="font-size: 22px" OnClick="btnColton1_Click"/>
                 <asp:Button ID="btnColton2" runat="server" Text="Solution #3382" class="btn btn-warning" style="font-size: 22px" OnClick="btnColton2_Click"/>
                 <asp:Button ID="btnLucas" runat="server" Text="Solution #420" class="btn btn-danger" style="font-size: 22px" OnClick="btnLucas_Click"/>
-                <asp:Button ID="btnSaivamsi" runat="server" Text="Solution #4" class="btn btn-primary" Style="font-size: 22px" OnClick="btnSaivamsi_Click"  />
-
                 <br />
             </div>
             <div class="results" style="max-width: fit-content; margin-left: auto; margin-right: auto; text-align: center">
