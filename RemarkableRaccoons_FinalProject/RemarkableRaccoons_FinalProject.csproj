@@ -65,11 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.aspx" />
-    <Content Include="Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ColtonRamsey.cs" />
+    <Compile Include="ColtonRamsey1.cs" />
     <Compile Include="IanMcDaniel.cs" />
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -80,7 +79,7 @@
     </Compile>
     <Compile Include="LucasIceman.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SaivamsiAmireddy.cs" />
+    <Compile Include="ColtonRamsey2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

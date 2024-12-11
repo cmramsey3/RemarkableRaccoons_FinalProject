@@ -1,5 +1,13 @@
 ﻿/*
- * Program Documentation
+* Name: Lucas Iceman
+* email: icemanlc@mail.uc.edu
+* Assignment Number: Final Exam
+* Due Date: 12/12/2024
+* Course #/Section: IS3050-002 
+* Semester/Year: Fall 2024
+* Brief Description of the assignment: Use asp.net to run leet code solutions.
+* Citations: https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/, https://chatgpt.com/
+* Anything else that's relevant:
  */
 
 using System;

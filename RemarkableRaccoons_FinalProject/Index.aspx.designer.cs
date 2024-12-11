@@ -24,6 +24,15 @@ namespace RemarkableRaccoons_FinalProject
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// btnClear control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnClear;
+
+        /// <summary>
         /// btnIan control.
         /// </summary>
         /// <remarks>
@@ -33,22 +42,22 @@ namespace RemarkableRaccoons_FinalProject
         protected global::System.Web.UI.WebControls.Button btnIan;
 
         /// <summary>
-        /// btnColton control.
+        /// btnColton1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnColton;
+        protected global::System.Web.UI.WebControls.Button btnColton1;
 
         /// <summary>
-        /// btnSai control.
+        /// btnColton2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSai;
+        protected global::System.Web.UI.WebControls.Button btnColton2;
 
         /// <summary>
         /// btnLucas control.
@@ -85,6 +94,15 @@ namespace RemarkableRaccoons_FinalProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblInputValues;
+
+        /// <summary>
+        /// lblResults control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblResults;
 
         /// <summary>
         /// lblSolution1 control.
