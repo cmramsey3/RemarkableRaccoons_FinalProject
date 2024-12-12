@@ -19,6 +19,12 @@ namespace RemarkableRaccoons_FinalProject
 {
     public class SaivamsiAmireddy
     {
+        /// <summary>
+        /// Finds the median of the two sorted arrays
+        /// </summary>
+        /// <param name="nums1">The first sorted integer array</param>
+        /// <param name="nums2">The second sorted integer array</param>
+        /// <returns>The median of the combined sorted arrays</returns>
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
             int[] mergedArray = new int[nums1.Length + nums2.Length];
